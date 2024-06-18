@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.header{
+background-color: black;
+color: white;
+padding: 5px;
+text-align: center;
+background-color: red;
+font-size: 18px;
+}
+.trailer-display{
+background-color: black;
+text-align: center;
+padding-top: 20px;
+}
+.movie-poster{
+display: inline-block;
+}
+.movie-poster:hover{
+border: 5px solid green;
+background-color:white;
+transition: 0.3s;
+
+}
+.movie-section{
+background-color:black;
+padding:20px;
+}
+a{
+text-decoration: none;
+}
+.movie-poster{
+margin:10px;
+padding:30px;
+border:white 1px solid;
+border-radius: 35px;
+}
+.watch-trailer{
+text-decoration: none;
+color:yellow;
+background-color: blue;
+border-radius: 10px;
+padding: 5px;
+margin:2px;
+font-size:x-large;
+font-weight: 600;
+}
+
+p{
+display:block;
+color: white;
+background-color: red;
+padding: 5px;
+width:fit-content;
+border-radius: 10px;
+font-size: x-large;
+font-weight: 900;
+}
+.wikipedia{
+display:block;
+color: white;
+background-color: purple;
+padding: 5px;
+width:fit-content;
+border-radius: 10px;
+font-size: x-larger;
+font-weight: 600;
+}
+.wikipedia:hover{
+color: black;
+}
+p:hover{
+color: black;
+}
+.watch-trailer:hover{
+color: black;
+}
